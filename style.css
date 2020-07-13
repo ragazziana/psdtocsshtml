@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+/* Menu Login */
+
+
+.menuprincipal{
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.0em;
+    letter-spacing: 1px;
+    flex-direction: row;
+}
+
+.loginmenu{
+    background: orange;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.0em;
+    letter-spacing: 1px;
+    flex-direction: row;
+}
+
+.phonecontainer{
+    display: inline-flex;
+    align-items: center;
+}
+
+.callus{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: orangered;
+    font-weight: bold;
+}
+
+.phonenumber{
+    color: white;
+    margin-left: 10px;
+}
+
+
+.logincontainer{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;    
+}
+
+.login{
+    color: orangered;
+    text-decoration: none;
+}
+
+.sign{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+
+/*LOGO*/
+
+.logocontainer{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.logo{
+   font-size: 2em;
+   margin: 0;
+}
+
+p span#cor1 {	
+    color: black;
+    font-size: 2em;
+}
+
+p span#cor2 {	
+    color: orange;
+    font-size: 2em;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+    font-size: 0.9em;
+    margin: 0;   
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.category{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.category1{
+    font-size: 1em;
+}
+
+/*Header Below*/
+
+.contact{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: start;
+    
+    
+    
+}
+
+.conpar{
+
+    color: orange;
+    letter-spacing: 2px;
+}
+
+.loremipsum{
+    display: block;
+    margin-top: -10px;
+    text-align: left;
+}
+
+
+/*Contact*/
+
+.container{
+    display: flex;
+    flex-direction: row;  
+    width: 70%;
+    Margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1em;
+    
+}
+
+
+.contactus{
+    border-bottom: black 5px solid;
+    color: orange;
+    letter-spacing: 2px;
+    font-weight: normal;
+   
+}
+
+
+
+#Name{
+    width: 98%;
+    height: 30px;
+    background-color: #FDFDD2;
+    border: 0px;
+}
+
+#Phone{
+    width: 48%;
+    margin-top: 10px;
+    height: 30px;
+    background-color: #FDFDD2;
+    border: 0px;
+}
+
+#Email{
+    width: 48%;
+    margin-top: 10px;
+    height: 30px;
+    background-color: #FDFDD2;
+    border: 0px;
+}
+
+#textarea{
+    width: 98%;
+    margin-top: 10px;
+    height: 90px;
+    background-color: #FDFDD2;
+    border: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8em;
+}
+
+#btn{
+    width: 30%;
+    margin-top: 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    background-color: orangered;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+}
+
+
+
+.reach{
+    border-bottom: black 5px solid;
+    color: orange;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+
+.reachus{
+    flex-basis: 430px;
+    flex-shrink: 2;
+}
+
+.contactform{
+    flex-basis: 430px;
+    
+}
+
+.textcontact{
+    line-height: 5px;
+}
